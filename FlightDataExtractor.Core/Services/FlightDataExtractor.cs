@@ -48,12 +48,13 @@ public class FlightDataExtractor : IPdfExtractor
             var crew = _parser.ParseCrewData(text);
             if (crew != null)
             {
+                // TODO: Uncomment as soon as crew have flight number
                 // crewDataMap[crew.FlightNumber] = crew;
             }
         }
     }
 
-    // Associates crews with flights. Uses a mapping of crews and their respective flight number
+    // Associates crews with flights using a mapping of crews and their respective flight number.
     private void AssociateCrewData(List<Flight> flights, IDictionary<string, Crew> crewDataMap)
     {
         foreach (var flight in flights)

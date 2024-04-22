@@ -4,7 +4,7 @@ namespace FlightDataExtractor.Core.Interfaces;
 
 /// <summary>
 /// An interface that defines the methods required for parsing the extracted text from
-/// a PDF file with flight information.
+/// a PDF file with flight information into Flight and Crew objects.
 /// </summary>
 public interface IPdfParser
 {
