@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# 
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlightDataExtractor.App", "FlightDataExtractor.App\FlightDataExtractor.App.csproj", "{9E851E74-96F8-4EAA-A443-ED18E80EBA09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlightDataExtractor.Tests", "FlightDataExtractor.Tests\FlightDataExtractor.Tests.csproj", "{E5C2A938-8455-4A16-9970-409EC30673D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlightDataExtractor.Core", "FlightDataExtractor.Core\FlightDataExtractor.Core.csproj", "{EA438D8B-3607-45A1-93DC-4B616DBBF18F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9E851E74-96F8-4EAA-A443-ED18E80EBA09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E851E74-96F8-4EAA-A443-ED18E80EBA09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E851E74-96F8-4EAA-A443-ED18E80EBA09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E851E74-96F8-4EAA-A443-ED18E80EBA09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5C2A938-8455-4A16-9970-409EC30673D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5C2A938-8455-4A16-9970-409EC30673D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5C2A938-8455-4A16-9970-409EC30673D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5C2A938-8455-4A16-9970-409EC30673D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA438D8B-3607-45A1-93DC-4B616DBBF18F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA438D8B-3607-45A1-93DC-4B616DBBF18F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA438D8B-3607-45A1-93DC-4B616DBBF18F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA438D8B-3607-45A1-93DC-4B616DBBF18F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
